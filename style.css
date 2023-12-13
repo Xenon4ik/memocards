@@ -30,10 +30,15 @@ main{
     margin:20px 30px;
 }
 section{
-    width:600px;
-    height:400px;
+    max-width:600px;
+    min-height:400px;
     border-radius: 15px;
     margin-bottom: 20px;
+    width:100%;
+    margin:20px auto;
+}
+p{
+    text-align: center;
 }
 .about-cards{
     background-color: #81BECE;
@@ -62,15 +67,29 @@ section{
 .about{
     display:flex;
     margin:20px;
-    gap:10px
+    gap:10px;
+    flex-wrap:wrap;
+}
+.cards-ex{
+    margin:0 auto;
 }
 .adv-container{
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;
+    align-items: center;
     margin:20px;
     gap:20px;
     height:100%;
 }
+.photo{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
 .text-how-look{
     text-align: center;
     font-weight:600;
@@ -92,7 +111,8 @@ section{
     border-radius: 5px;
     border:0;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-    height:20px;
+    height:40px;
+    font-size: 20px;
 }
 .pole.text{
     height:100px;
