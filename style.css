@@ -73,7 +73,7 @@ p{
 .cards-ex{
     margin:0 auto;
 }
-.container{
+.section-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,10 +136,7 @@ p{
     top:0;
     left:0;
 }
-.adv-title{
+.section-third-title{
     text-align: center;
     font-weight: 400;
-}
-.adv-text{
-    display:flex;
 }
