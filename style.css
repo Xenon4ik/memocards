@@ -138,4 +138,8 @@ p{
 }
 .adv-title{
     text-align: center;
+    font-weight: 400;
+}
+.adv-text{
+    display:flex;
 }
