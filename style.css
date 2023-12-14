@@ -73,7 +73,7 @@ p{
 .cards-ex{
     margin:0 auto;
 }
-.adv-container{
+.container{
     display: flex;
     flex-direction: column;
     justify-content: center;
